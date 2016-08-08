@@ -1,0 +1,5 @@
+Q1: some of the files are over 100MB. You commit that for 5 times.How to cancel all?
+A1: git reset --hard origin/master
+
+Q2: How to delete file not only local but also github?
+A2: git rm,commit,git push 
