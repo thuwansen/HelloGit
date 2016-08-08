@@ -3,3 +3,10 @@ A1: git reset --hard origin/master
 
 Q2: How to delete file not only local but also github?
 A2: git rm,commit,git push 
+
+Q3：如何将新建的工程文件夹(newProject)上传到github
+A3:
+	1、在github新建文件夹newProject
+	2、gitbash定位到本地newProject,执行git init
+	3、将本地和远程联系起来，git remote add origin https://github.com/thuwansen/newProject.git
+	4、git add,git commit,git push
