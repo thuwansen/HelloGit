@@ -13,3 +13,6 @@ A3:
 
 Q4：如何将github上的文件更新到本地
 A4：	git pull origin master
+
+Q5:本地进行了多次的修改，如何让github与本地完全保持一致？
+A5：进入工程文件夹，git add .(表示所有的) git commit -m;git push origin master.提示：用git add *不是这样的结果，只是增加了增加的东西，github上多余的东西没有删除
